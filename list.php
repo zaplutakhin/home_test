@@ -10,4 +10,5 @@ foreach ($tests as $test){
       echo "<p><a href='tests/test.php?test=$test'> $name </a></p>";
    }
 }
+echo "<p><b><a href='http://university.netology.ru/u/azaplutakhin/admin.php'>Загрузить новый тест</a></b></p>";
 ?>
