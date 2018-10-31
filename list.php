@@ -7,8 +7,8 @@ foreach ($tests as $test){
       
       $testname=json_decode(file_get_contents('tests/'.urlencode($test)), true);
       $name=$testname['0']['testname'];
-      echo "<p><a href='tests/test.php?test=$test'> $name </a></p>";
+      echo "<p><a href='test.php?test=$test'> $name </a></p>";
    }
 }
-echo "<p><b><a href='http://university.netology.ru/u/azaplutakhin/admin.php'>Загрузить новый тест</a></b></p>";
+echo "<p><b><a href='admin.php'>Загрузить новый тест</a></b></p>";
 ?>
